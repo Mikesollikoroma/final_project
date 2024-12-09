@@ -8,8 +8,3 @@
     font-family: 'bebas';
     src: url(/assets/fonts/bebas-regular.ttf) format(truetype);
 }
-
-body {
-    font-family: 'bebas', sans-serif;
-    color: #333;
-}
