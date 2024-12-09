@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url(/assets/fonts/bebas-regular.ttf) format(truetype);
+}
+
+body {
+    font-family: 'bebas', sans-serif;
+    color: #333;
+}
