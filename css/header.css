@@ -1,9 +1,9 @@
 header {
+    display: flex;
     background-color: rgb(190, 5, 5);
     color: #f8f9fa;
     padding: 1rem;
     font-size: 1.8rem;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -15,8 +15,9 @@ header {
 }
 
 .header__menu {
-    list-style: none;
     display: flex;
+    justify-content: center;
+    list-style: none;
     gap: 1em;
 }
 
