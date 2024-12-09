@@ -1,0 +1,30 @@
+header {
+    background-color: rgb(190, 5, 5);
+    color: #f8f9fa;
+    padding: 1rem;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    justify-self: center;
+}
+
+.header__menu {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+.header__link {
+    color: #f8f9fa;
+}
+
+.header__link:hover {
+    color: rgb(0, 15, 128);
+    
+}
