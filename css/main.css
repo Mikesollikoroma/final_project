@@ -2,3 +2,6 @@ body {
     font-family: 'bebas', sans-serif;
     color: #333;
 }
+main {
+    padding: 4rem;
+}
