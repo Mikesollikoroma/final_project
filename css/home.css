@@ -1,0 +1,44 @@
+.home {
+    background-image: url(/assets/images/school2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 1em 1em;
+    height: 60vh;
+    margin-bottom:1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(98, 109, 226, 0.2); 
+}
+
+.home__title {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.home__text {
+    color: black;
+    font-size: 1.25em;
+    margin-bottom: 3rem;
+    text-shadow: 1px 1px 3px rgba(48, 21, 21, 0.5);
+}
+
+.home__button {
+    background-color: rgb(190, 5, 5);
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.home__button:hover {
+    background-color: red;
+}
