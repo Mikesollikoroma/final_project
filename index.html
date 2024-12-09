@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduConnect</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/app.js" defer></script>
+</head>
+<body>
+    <!-- Header section -->
+    <header class="header">
+        <nav class="header__nav">
+            <h1 class="header__logo">Bergkrystallen HighSchool</h1>
+            <ul class="header__menu">
+                <li><a href="#home" class="header__link">Home</a></li>
+                <li><a href="#schedule" class="header__link">Class Schedule</a></li>
+                <li><a href="#contact" class="header__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main section -->
+    <main class="main">
+        <section id="home" class="home">
+            <h2 class="home__title">Welcome to Highschool</h2>
+            <p class="home__text">This is your one-stop Higschool resource platform.</p>
+            <a href="#schedule" class="home__button">Explore Now</a>
+        </section>
+
+        <!-- Schedule section -->
+        <section id="schedule" class="schedule">
+            <h2 class="schedule__title">Class Schedules</h2>
+            <select id="gradeSelector" class="schedule__selector">
+                <option value="grade1">Grade 1</option>
+                <option value="grade2">Grade 2</option>
+                <option value="grade3">Grade 3</option>
+            </select>
+            <div id="scheduleContainer" class="schedule__grid"></div>
+        </section>
+        <!-- Contact section -->
+        <section id="contact" class="contact">
+            <h2 class="contact__title">Contact Us</h2>
+            <form id="contactForm" class="contact__form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <!-- Footer section -->
+    <footer class="footer">
+        <p>&copy; 2024 Bergkrystallen. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
