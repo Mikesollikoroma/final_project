@@ -1,0 +1,35 @@
+/* Media queries for responsive design */
+
+/* For screens smaller than 700px */
+@media (max-width: 700px) {
+.schedule__title {
+    font-size: 4rem;
+}
+
+.schedule__selector {
+    font-size: 1rem;
+}
+
+.schedule__item {
+    font-size: 1rem;
+    padding: 1.2rem;
+}
+}
+
+/* For screens smaller than 520px */
+@media (max-width: 520px) {
+
+.schedule__title {
+    font-size: 3rem;
+}
+
+.schedule__selector {
+    font-size: 0.8rem;
+
+}
+
+.schedule__item {
+    font-size: 0.8rem;
+    padding: 1rem;
+}
+}
