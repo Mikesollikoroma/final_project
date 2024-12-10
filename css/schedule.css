@@ -3,8 +3,9 @@
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+    height: 80vh;
     background-color: #f4f4f4;
-    padding: 3rem 2rem;
+    padding: 4rem 3rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -34,3 +35,29 @@
     color: #fff;
 }
 
+.schedule__grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.schedule__item {
+    grid-column: 3 / 11;
+    background-color: red;
+    color: #fff;
+    padding: 1.6rem;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.schedule__item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    background-color: rgb(190, 5, 5);
+}
