@@ -28,8 +28,13 @@
 
 }
 
+.schedule__grid {
+    gap: 0.5rem;
+}
 .schedule__item {
     font-size: 0.8rem;
     padding: 1rem;
 }
 }
+
+
