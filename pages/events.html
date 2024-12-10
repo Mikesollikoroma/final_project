@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High School - News & Events</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/events.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/mediaqueries.css">
+    <script src="/js/events.js" defer></script>
+</head>
+ <!-- Header section -->
+ <header class="header">
+    <nav class="header__nav">
+        <h1 class="header__title">Bergkrystallen HighSchool</h1>
+        <ul class="header__menu">
+            <li><a href="/index.html" class="header__link">Home</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- Main section -->
+<main>
+    <section class="events">
+        <h2>Upcoming Events</h2>
+        <div class="filter">
+            <label for="event-type">Filter by type:</label>
+            <select id="event-type">
+                <option value="all">All</option>
+                <option value="sports">Sports</option>
+                <option value="academics">Academics</option>
+                <option value="cultural">Cultural</option>
+            </select>
+        </div>
+        <ul id="event-list">
+            <li data-type="sports">Basketball Game - Dec 15</li>
+            <li data-type="academics">Science Fair - Dec 17</li>
+            <li data-type="cultural">Winter Music Concert - Dec 22</li>
+            <li data-type="sports">Swim Meet - Jan 5</li>
+        </ul>
+    </section>
+</main>
+ <!-- Footer section -->
+ <footer class="footer">
+    <p>&copy; 2024 Bergkrystallen. All Rights Reserved.</p>
+</footer>
