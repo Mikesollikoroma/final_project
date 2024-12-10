@@ -8,7 +8,7 @@ header {
     justify-content: center;
 }
 
-.header__logo {
+.header__title {
     font-size: 1.5em;
     font-weight: bold;
     justify-self: center;
