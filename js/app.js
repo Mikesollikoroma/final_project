@@ -20,4 +20,23 @@ document.addEventListener('DOMContentLoaded', () => {
     // Get the grade selector and schedule container
     const gradeSelector = document.getElementById("gradeSelector");
     const scheduleContainer = document.getElementById("scheduleContainer");
+
+     // Function to update the schedule based on selected grade
+     function updateSchedule(grade) {
+        // Clear the previous schedule
+        scheduleContainer.innerHTML = '';
+
+        // Check if the grade exists in scheduleData
+        const selectedSchedule = scheduleData[grade];
+        
+        if (selectedSchedule) {
+            // Map the schedule data to HTML elements
+            scheduleContainer.innerHTML = selectedSchedule
+                .map(subject => `<div class="schedule__item">${subject.subject}: ${subject.time}</div>`)
+                .join('');
+        } else {
+            // If no schedule found for the selected grade, show a message
+            scheduleContainer.innerHTML = '<div class="schedule__item">No schedule available for this grade.</div>';
+        }
+    }
 });
