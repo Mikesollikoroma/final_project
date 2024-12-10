@@ -64,3 +64,12 @@ input[type="email"]:focus,
 textarea:focus {
     border-color: red; 
 }
+
+.success-message {
+    color: green;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px;
+    display: none; /* Hidden by default */
+  }
