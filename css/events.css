@@ -1,0 +1,54 @@
+/* Events Section */
+.events {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.events h2 {
+    color: rgb(190, 5, 5);
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.events .filter {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.events .filter select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.events #event-list {
+    list-style: none;
+    padding: 0;
+}
+
+.events #event-list li {
+    padding: 10px;
+    margin-bottom: 8px;
+    border-left: 4px solid rgb(190, 5, 5);
+    background: #f1f9ff;
+    border-radius: 4px;
+}
+#event-type {
+    color: rgb(190, 5, 5);
+}
+
+.events #event-list li:hover {
+    background: rgb(215, 200, 200);
+}
