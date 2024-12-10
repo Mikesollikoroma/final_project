@@ -1,0 +1,36 @@
+.schedule {
+    background-image: url(/assets/images/school.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #f4f4f4;
+    padding: 3rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.schedule__title {
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgb(228, 3, 3);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.schedule__selector {
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 2.4rem;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.schedule__selector:hover {
+    background-color: red;
+    color: #fff;
+}
+
