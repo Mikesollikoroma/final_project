@@ -39,4 +39,13 @@ document.addEventListener('DOMContentLoaded', () => {
             scheduleContainer.innerHTML = '<div class="schedule__item">No schedule available for this grade.</div>';
         }
     }
+
+    // Add an event listener to the grade selector
+    gradeSelector.addEventListener("change", (e) => {
+        const selectedGrade = e.target.value; // Get the selected grade value
+        updateSchedule(selectedGrade); // Update the schedule based on selected grade
+    });
+
+    // Initialize the schedule for the default selected grade (grade1)
+    updateSchedule(gradeSelector.value);
 });
