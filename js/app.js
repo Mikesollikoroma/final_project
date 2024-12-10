@@ -49,3 +49,30 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize the schedule for the default selected grade (grade1)
     updateSchedule(gradeSelector.value);
 });
+
+// Form Submission
+document.getElementById("contactForm").addEventListener("submit", (e) => {
+    e.preventDefault(); // Prevent default form submission behavior
+
+    // Get the input values
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+
+    // Save form data in localStorage
+    localStorage.setItem("formData", JSON.stringify({ name, email, message }));
+
+    // Show a success message
+    const successMessage = document.getElementById("successMessage");
+    successMessage.style.display = "block"; // Make the success message visible
+
+    // Clear the input fields
+    document.getElementById("name").value = '';
+    document.getElementById("email").value = '';
+    document.getElementById("message").value = '';
+
+    // Hide the success message after a few seconds (optional)
+    setTimeout(() => {
+      successMessage.style.display = "none";
+    }, 5000); // Hides the message after 5 seconds
+});
