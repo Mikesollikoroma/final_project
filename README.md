@@ -5,7 +5,7 @@ In this assignment I chose to create a webiste for "Bergkrystallen HighSchool", 
  
 ## Links 
 - Github: https://github.com/Mikesollikoroma/final_project.git
-- Netlify: 
+- Netlify: https://final-project-hoyskolenkristiania.netlify.app
 
  ### Navigation 
  - a navbar at the top of the page on both landing pages 
